@@ -10,3 +10,5 @@ You start the app, your friends text in, winner wins.
 6. When enough players have joined, the game master will be asked to start the game
 7. All players will get a text with the anagram
 8. First player to solve the anagram wins
+
+![](https://i.imgur.com/Tac6bLp.png)
