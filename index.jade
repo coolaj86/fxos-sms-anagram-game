@@ -1,0 +1,36 @@
+html
+  head
+    title Anagrams SMS Game - Firefox OS
+    meta(name="viewport", content="user-scalable=0, initial-scale=1.0")
+    meta(charset="utf-8")
+    meta(http-equiv="Content-Type" content="text/html; charset=utf-8")
+    script(src="js/jquery.min.js", type="text/javascript", charset="utf-8")
+    script(src="js/aj-logger.js", type="text/javascript", charset="utf-8")
+    script(src="scripts/controllers/main.js", type="text/javascript", charset="utf-8")
+    link(href="css/bootstrap.min.css", rel="stylesheet")
+  body
+    .container
+      .row
+        .col-xs-12
+          h1 Anagrams SMS Game
+      .row.js-game-master-form
+        .col-xs-12
+          p Game Master's Number?
+          p.hint The Game Master is the "host", the person who controls when the game starts.
+        .col-xs-12
+          input.js-game-master-number.form-control(type="tel" placeholder="ex: 5551239876")
+        .col-xs-12
+          button.form-control.btn.btn-primary(type="button") Register Game Master
+      .row
+        .col-xs-12
+          h3 Debug Console
+      .row
+        .col-xs-9
+          .help-block.pull-left Because sometimes the built-in debbuger doesn"t work...
+        .col-xs-3
+          button#console-clear.btn.btn-default(type="button") Clear
+      .row
+        .col-xs-12
+          pre
+            code
+              #console

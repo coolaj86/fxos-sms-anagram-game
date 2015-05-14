@@ -1,0 +1,20 @@
+{ "name": "Anagrams"
+, "description": "Play remotely against friends via SMS to see who can solve anagrams the fastest."
+, "version": "1.0"
+, "type": "certified"
+, "launch_path": "/index.html"
+, "developer": {
+    "name": "AJ ONeal"
+  , "url": "https://coolaj86.com"
+  }
+, "permissions": {
+    "sms": {
+      "description": "You can send and receive text messages in this app."
+    }
+  }
+, "messages": [
+    { "alarm": "/index.html" }
+  , { "push": "/index.html"}
+  , { "push-register": "/index.html"}
+  ]
+}
