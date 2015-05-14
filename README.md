@@ -1,4 +1,5 @@
-# fxos-sms-anagram-game
+fxos-sms-anagram-game
+=====================
 
 You start the app, your friends text in, winner wins.
 
@@ -12,3 +13,5 @@ You start the app, your friends text in, winner wins.
 8. First player to solve the anagram wins
 
 ![](https://i.imgur.com/Tac6bLp.png)
+
+WARNING: I wrote this in a few hours at a hackathon and forgot to push it to github for 6 months. After making a few minor changes I've published it, but it's not my best code.
